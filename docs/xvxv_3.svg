@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="XVXV_3" version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="5in" height="5in" viewBox="-.5 -.5 10 10">
+  <sodipodi:namedview id="namedview-0"
+     units="pc" inkscape:document-units="pc" inkscape:pagecheckerboard="1">
+  </sodipodi:namedview>
+  <defs id="objects">
+    <path id="r" d="m 0,0 h 9" />
+    <path id="c" d="m 0,0 v 9" />
+    <path id="b" transform="scale(.08)"
+       d="M 0,-2 -.866,-.5 A 1,1 0 1 0 .866,-.5 Z" />
+    <path id="v" transform="scale(.08)"
+       d="M -1,-1.5 0,2 1,-1.5 .4,-1.5 0,0 -.4,-1.5 Z" />
+    <path id="x" transform="scale(.08)"
+       d="M -1,-1.5 -.3,0 -1,1.5 -.4,1.5 0,.643 .4,1.5 1,1.5 .3,0 1,-1.5 .4,-1.5 0,-.643 -.4,-1.5 Z" />
+    <rect id="vm" transform="scale(.08)"
+       x="-1" y="-2" width="2" height="4.5"/>
+    <rect id="xm" transform="scale(.08)"
+       x="-1" y="-2" width="2" height="4"/>
+  </defs>
+  <mask id="gm">
+    <rect id="canvas" fill="white" x="-3" y="-3" width="15" height="15" />
+    <g id="gaps" fill="black">
+      <use id="xm-r16" xlink:href="#xm" transform="translate(6,.5)" />
+      <use id="vm-r17" xlink:href="#vm" transform="translate(7,.5)" />
+      <use id="xm-r18" xlink:href="#xm" transform="translate(8,.5)" />
+      <use id="vm-c91" xlink:href="#vm" transform="translate(8.5,1)" />
+      <use id="xm-c12" xlink:href="#xm" transform="translate(.5,2)" />
+      <use id="xm-r33" xlink:href="#xm" transform="translate(3,2.5)" />
+      <use id="xm-c33" xlink:href="#xm" transform="translate(2.5,3)" />
+      <use id="xm-r42" xlink:href="#xm" transform="translate(2,3.5)" />
+      <use id="xm-c15" xlink:href="#xm" transform="translate(.5,5)" />
+      <use id="xm-r51" xlink:href="#xm" transform="translate(1,4.5)" />
+      <use id="xm-c25" xlink:href="#xm" transform="translate(1.5,5)" />
+      <use id="xm-r67" xlink:href="#xm" transform="translate(7,5.5)" />
+      <use id="vm-r68" xlink:href="#vm" transform="translate(8,5.5)" />
+      <use id="xm-c96" xlink:href="#xm" transform="translate(8.5,6)" />
+      <use id="xm-c97" xlink:href="#xm" transform="translate(8.5,7)" />
+      <use id="xm-c77" xlink:href="#xm" transform="translate(6.5,7)" />
+      <use id="vm-r87" xlink:href="#vm" transform="translate(7,7.5)" />
+      <use id="xm-c18" xlink:href="#xm" transform="translate(.5,8)" />
+      <use id="xm-r91" xlink:href="#xm" transform="translate(1,8.5)" />
+      <use id="xm-c28" xlink:href="#xm" transform="translate(1.5,8)" />
+    </g>
+  </mask>
+  <g id="grid" inkscape:groupmode="layer" style="fill:none;stroke:black" mask="url(#gm)">
+    <g id="thick" style="stroke-width:.03">
+      <path id="edge" d="m 0,0 h 9 v 9 h -9 Z" />
+      <use id="r-3" xlink:href="#r" transform="translate(0,3)" />
+      <use id="r-6" xlink:href="#r" transform="translate(0,6)" />
+      <use id="c-3" xlink:href="#c" transform="translate(6,0)" />
+      <use id="c-6" xlink:href="#c" transform="translate(3,0)" />
+    </g>
+    <g id="thin" style="stroke-width:.01">
+      <use id="r-1" xlink:href="#r" transform="translate(0,1)" />
+      <use id="r-2" xlink:href="#r" transform="translate(0,2)" />
+      <use id="r-4" xlink:href="#r" transform="translate(0,4)" />
+      <use id="r-5" xlink:href="#r" transform="translate(0,5)" />
+      <use id="r-7" xlink:href="#r" transform="translate(0,7)" />
+      <use id="r-8" xlink:href="#r" transform="translate(0,8)" />
+      <use id="c-1" xlink:href="#c" transform="translate(1,0)" />
+      <use id="c-2" xlink:href="#c" transform="translate(2,0)" />
+      <use id="c-4" xlink:href="#c" transform="translate(4,0)" />
+      <use id="c-5" xlink:href="#c" transform="translate(5,0)" />
+      <use id="c-7" xlink:href="#c" transform="translate(7,0)" />
+      <use id="c-8" xlink:href="#c" transform="translate(8,0)" />
+    </g>
+  </g>
+  <g id="clues" inkscape:groupmode="layer" style="fill:black;stroke:none">
+    <g id="dots">
+      <use id="b-c53" xlink:href="#b" transform="translate(4.5,3)" />
+      <use id="b-c56" xlink:href="#b" transform="translate(4.5,6)" />
+      <use id="b-c57" xlink:href="#b" transform="translate(4.5,7)" />
+      <use id="b-c58" xlink:href="#b" transform="translate(4.5,8)" />
+    </g>
+    <g id="xv">
+      <use id="x-r16" xlink:href="#x" transform="translate(6,.5)" />
+      <use id="v-r17" xlink:href="#v" transform="translate(7,.5)" />
+      <use id="x-r18" xlink:href="#x" transform="translate(8,.5)" />
+      <use id="v-c91" xlink:href="#v" transform="translate(8.5,1)" />
+      <use id="x-c12" xlink:href="#x" transform="translate(.5,2)" />
+      <use id="x-r33" xlink:href="#x" transform="translate(3,2.5)" />
+      <use id="x-c33" xlink:href="#x" transform="translate(2.5,3)" />
+      <use id="x-r42" xlink:href="#x" transform="translate(2,3.5)" />
+      <use id="x-c15" xlink:href="#x" transform="translate(.5,5)" />
+      <use id="x-r51" xlink:href="#x" transform="translate(1,4.5)" />
+      <use id="x-c25" xlink:href="#x" transform="translate(1.5,5)" />
+      <use id="x-r67" xlink:href="#x" transform="translate(7,5.5)" />
+      <use id="v-r68" xlink:href="#v" transform="translate(8,5.5)" />
+      <use id="x-c96" xlink:href="#x" transform="translate(8.5,6)" />
+      <use id="x-c97" xlink:href="#x" transform="translate(8.5,7)" />
+      <use id="x-c77" xlink:href="#x" transform="translate(6.5,7)" />
+      <use id="v-r87" xlink:href="#v" transform="translate(7,7.5)" />
+      <use id="x-c18" xlink:href="#x" transform="translate(.5,8)" />
+      <use id="x-r91" xlink:href="#x" transform="translate(1,8.5)" />
+      <use id="x-c28" xlink:href="#x" transform="translate(1.5,8)" />
+    </g>
+  </g>
+</svg>
