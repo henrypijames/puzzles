@@ -28,7 +28,7 @@
      showgrid="false"
      inkscape:zoom="1"
      inkscape:cx="469.5"
-     inkscape:cy="1084.5"
+     inkscape:cy="1244.5"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -249,12 +249,12 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="Layer 1"
-     style="display:none">
+     style="display:inline">
     <rect
-       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0870225"
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0972941"
        id="rect52166"
        width="10"
-       height="12"
+       height="15"
        x="-0.5"
        y="-2.5"
        inkscape:export-filename="C:\Users\zhouhuijing\Documents\dev\puzzle\xvxv_3.png"
@@ -441,7 +441,7 @@
          x="0"
          y="9.7883806">• <tspan
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Merriweather;-inkscape-font-specification:'Merriweather Bold';stroke-width:0.0104167"
-   id="tspan100639">Normal sudoku: </tspan>Fill every row, coloumn and marked 3×3 box </tspan><tspan
+   id="tspan100639">Normal sudoku: </tspan>Fill every row, column and marked 3×3 box </tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.249999px;font-family:Merriweather;-inkscape-font-specification:Merriweather;stroke-width:0.0104168"
          x="0"
@@ -477,7 +477,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.249999px;font-family:Merriweather;-inkscape-font-specification:Merriweather;stroke-width:0.0104168"
          x="0"
          y="11.697948"
-         id="tspan129993">      neccessarily given.</tspan></text>
+         id="tspan129993">      necessarily given.</tspan></text>
   </g>
   <g
      id="clues"
