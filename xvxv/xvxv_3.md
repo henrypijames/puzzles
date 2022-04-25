@@ -11,7 +11,7 @@ _by Henry 'Pi' James & Raumplaner_
 ![XVXV - Episode 3: Killing Eve](xvxv_3.svg)
 
 ## Resources
-- **Download** this puzzle as: [scalable image (SVG)](xvxv_3.svg) \| [bitmap image (PNG)](xvxv_3.png) \| [printable document (PDF)](xvxv_3.pdf)
+- **Download** this puzzle as: [scalable image (SVG)](xvxv_3_full.svg) \| [bitmap image (PNG)](xvxv_3.png) \| [printable document (PDF)](xvxv_3.pdf)
 - **Play online** on: [Penpa+](xvxv_3_penpa.html) \| [CtC App](xvxv_3_ctc.html) \| [f-puzzles](xvxv_3_fpuzzles.html)
 
 ## Acknowledgment
