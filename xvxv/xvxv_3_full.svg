@@ -2,9 +2,9 @@
 <svg
    id="XVXV_3"
    version="1.1"
-   width="10in"
-   height="15in"
-   viewBox="-0.5 -2.5 10 15"
+   width="4.75in"
+   height="7.125in"
+   viewBox="-0.25 -2.25 9.5 14.25"
    sodipodi:docname="xvxv_3_full.svg"
    inkscape:export-filename="C:\Users\zhouhuijing\Documents\dev\puzzle\xvxv_3.png"
    inkscape:export-xdpi="48"
@@ -28,7 +28,7 @@
      showgrid="false"
      inkscape:zoom="1"
      inkscape:cx="469.5"
-     inkscape:cy="1244.5"
+     inkscape:cy="364.5"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -248,8 +248,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer1"
-     inkscape:label="Layer 1"
-     style="display:inline">
+     inkscape:label="#background"
+     style="display:none">
     <rect
        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0972941"
        id="rect52166"
