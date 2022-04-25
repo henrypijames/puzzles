@@ -1,5 +1,6 @@
 ﻿# XVXV - Episode 3: Killing Eve
-_by Henry 'Pi' James & Raumplaner_
+_by Henry 'Pi' James & Raumplaner_  
+_published on Sunday, 24 April 2022_
 
 ## Rules
 - **Normal sudoku:** Fill every row, column and marked 3×3 box with the digits 1 to 9 once each.
@@ -12,7 +13,7 @@ _by Henry 'Pi' James & Raumplaner_
 
 ## Resources
 - **Download** this puzzle as: [scalable image (SVG)](xvxv_3.svg) \| [bitmap image (PNG)](xvxv_3.png) \| [printable document (PDF)](xvxv_3.pdf).  
-_Note: Some SVG and PDF engines are unable to render the gaps on cell borders around X and V clues, but mainstream web browsers should all handle them properly._
+_Note: Some SVG and PDF engines are unable to render the little gaps on cell borders around X and V clues, but mainstream web browsers should all handle them properly._
 - **Play online** on: [Penpa+](xvxv_3_penpa.html) \| [CtC App](xvxv_3_ctc.html) \| [f-puzzles](xvxv_3_fpuzzles.html).
 
 ## Acknowledgment
