@@ -11,8 +11,9 @@ _by Henry 'Pi' James & Raumplaner_
 ![XVXV - Episode 3: Killing Eve](xvxv_3.svg)
 
 ## Resources
-- **Download** this puzzle as: [scalable image (SVG)](xvxv_3.svg) \| [bitmap image (PNG)](xvxv_3.png) \| [printable document (PDF)](xvxv_3.pdf)
-- **Play online** on: [Penpa+](xvxv_3_penpa.html) \| [CtC App](xvxv_3_ctc.html) \| [f-puzzles](xvxv_3_fpuzzles.html)
+- **Download** this puzzle as: [scalable image (SVG)](xvxv_3.svg) \| [bitmap image (PNG)](xvxv_3.png) \| [printable document (PDF)](xvxv_3.pdf).  
+_Note: Some SVG and PDF engines are unable to render the gaps on cell borders around X and V clues, but mainstream web browsers should all handle them properly._
+- **Play online** on: [Penpa+](xvxv_3_penpa.html) \| [CtC App](xvxv_3_ctc.html) \| [f-puzzles](xvxv_3_fpuzzles.html).
 
 ## Acknowledgment
 This is the very first puzzle I've created! I'm immensely grateful to [Cracking the Cryptic](https://www.youtube.com/c/CrackingTheCryptic) and [Logic Master Germany](https://logic-masters.de/) for introducing me into the world of variant sudoku; to all the people in this wonderful community who have encouraged me to dip my toes into puzzle creation; and most importantly, to _@Raumplaner_ for taking me on as a newbie partner with an unknown and untested ruleset.
