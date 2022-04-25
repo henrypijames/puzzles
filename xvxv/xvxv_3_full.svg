@@ -2,8 +2,8 @@
 <svg
    id="XVXV_3"
    version="1.1"
-   width="9.5in"
-   height="14.25in"
+   width="4.75in"
+   height="7.125in"
    viewBox="-0.25 -2.25 9.5 14.25"
    sodipodi:docname="xvxv_3_full.svg"
    inkscape:export-filename="C:\Users\zhouhuijing\Documents\dev\puzzle\xvxv_3.png"
@@ -34,7 +34,7 @@
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="grid"
      viewbox-y="-2.75" />
   <defs
      id="objects">
@@ -248,7 +248,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer1"
-     inkscape:label="Layer 1"
+     inkscape:label="#background"
      style="display:none">
     <rect
        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0972941"
