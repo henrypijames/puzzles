@@ -37,8 +37,8 @@
      viewbox-y="-2.75" />
   <style>
     svg {background-color: white}
-    .fill, .text {fill: white; stroke: none}
-    .stroke {fill: none; stroke: white}
+    .fill, .text {fill: black; stroke: none}
+    .stroke {fill: none; stroke: black}
     .logo {fill: #f33; stroke: none}
     @media (prefers-color-scheme: dark) {
       svg {background-color: black}
