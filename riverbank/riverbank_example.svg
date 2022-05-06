@@ -10,7 +10,7 @@
      units="pc" inkscape:document-units="pc" inkscape:pagecheckerboard="1">
   </sodipodi:namedview>
   <style type="text/css">
-    @import url('http://fonts.googleapis.com/css?family=Merriweather|Merriweather Sans');
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&amp;family=Merriweather:ital,wght@0,400;0,700;1,400&amp;display=swap');
     .pos {fill: #fff; stroke: #none}
     .neg {fill: #000; stroke: #none}
     .mark {fill: none; stroke: #000; stroke-width: 4}
