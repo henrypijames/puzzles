@@ -16,7 +16,7 @@
     .mark {fill: none; stroke: #000; stroke-width: 4}
     .fill {fill: black; stroke: none}
     .stroke {fill: none; stroke: black}
-    #river {fill: deepskyblue}
+    #river {fill: aqua}
     #vk, #vq {fill: green}
     #xk, #xq {fill: red}
     .shape {fill: none; stroke: black; stroke-width: 2}
@@ -25,8 +25,9 @@
     #title {font-size: 36pt; font-family: Merriweather}
     #notes {font-size: 18pt; font-family: Merriweather}
     .bold {font-weight: bold}
-    @media_ (prefers-color-scheme: dark) {
+    @media (prefers-color-scheme: dark) {
       svg {background-color: black}
+      #river {fill: navy}
       .shape {stroke: white}
       .fill {fill: white}
       .stroke {stroke: white}
