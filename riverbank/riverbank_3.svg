@@ -11,14 +11,8 @@
   </sodipodi:namedview>
   <style type="text/css">
     @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&amp;display=swap');
-    .pos {fill: #fff; stroke: #none}
-    .neg {fill: #000; stroke: #none}
-    .mark {fill: none; stroke: #000; stroke-width: 4}
     .fill {fill: black; stroke: none}
     .stroke {fill: none; stroke: black}
-    #river {fill: aqua}
-    #vk, #vq {fill: green}
-    #xk, #xq {fill: red}
     .shape {fill: none; stroke: black; stroke-width: 2}
     #title {font-size: 36pt; font-family: Merriweather}
     #byline, #notes {font-size: 18pt; font-family: Merriweather}
@@ -27,7 +21,6 @@
     .italic {font-style: italic}
     @media (prefers-color-scheme: dark) {
       svg {background-color: black}
-      #river {fill: navy}
       .shape {stroke: white}
       .fill {fill: white}
       .stroke {stroke: white}
