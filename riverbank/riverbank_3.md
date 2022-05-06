@@ -16,7 +16,7 @@ _published on Friday, 6 May 2022_
 
 ## Resources
 - **Download** this puzzle as: [scalable image (SVG)](riverbank_3.svg) \| [bitmap image (PNG)](riverbank_3.png) \| [printable document (PDF)](riverbank_3.pdf).  
-_Note: SVG auto-switches colors depending on light/dark mode in system/broswer setting; PDF is in printing-friendly black on white._
+_Note: SVG auto-switches colors depending on light/dark mode in system/browser setting; PDF is in printing-friendly black on white._
 - **Play online** on: [Penpa+](riverbank_3_penpa.html) \| [CtC App](riverbank_3_ctc.html).
 - **Check your solution** and **discuss** this puzzle with others at [LMD puzzle portal](https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=0009U6).
 
