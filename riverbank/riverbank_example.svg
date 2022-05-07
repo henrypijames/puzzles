@@ -16,7 +16,7 @@
     .mark {fill: none; stroke: #000; stroke-width: 4}
     .fill {fill: black; stroke: none}
     .stroke {fill: none; stroke: black}
-    #river {fill: aqua}
+    #river {fill: powderblue}
     #vk, #vq {fill: green}
     #xk, #xq {fill: red}
     .shape {fill: none; stroke: black; stroke-width: 2}
@@ -27,7 +27,7 @@
     .bold {font-weight: bold}
     @media (prefers-color-scheme: dark) {
       svg {background-color: black}
-      #river {fill: navy}
+      #river {fill: steelblue}
       .shape {stroke: white}
       .fill {fill: white}
       .stroke {stroke: white}
@@ -64,35 +64,41 @@
   </mask>
   <g id="shading" inkscape:groupmode="layer" mask="url(#gm)">
     <g id="river">
-      <use id="s-26" xlink:href="#s" transform="translate(500,100)" />
-      <use id="s-36" xlink:href="#s" transform="translate(500,200)" />
-      <use id="s-37" xlink:href="#s" transform="translate(600,200)" />
-      <use id="s-38" xlink:href="#s" transform="translate(700,200)" />
-      <use id="s-48" xlink:href="#s" transform="translate(700,300)" />
+      <use id="s-59" xlink:href="#s" transform="translate(800,400)" />
       <use id="s-58" xlink:href="#s" transform="translate(700,400)" />
-      <use id="s-57" xlink:href="#s" transform="translate(600,400)" />
-      <use id="s-67" xlink:href="#s" transform="translate(600,500)" />
+      <use id="s-68" xlink:href="#s" transform="translate(700,500)" />
+      <use id="s-78" xlink:href="#s" transform="translate(700,600)" />
+      <use id="s-77" xlink:href="#s" transform="translate(600,600)" />
+      <use id="s-76" xlink:href="#s" transform="translate(500,600)" />
       <use id="s-66" xlink:href="#s" transform="translate(500,500)" />
-      <use id="s-65" xlink:href="#s" transform="translate(400,500)" />
-      <use id="s-75" xlink:href="#s" transform="translate(400,600)" />
-      <use id="s-85" xlink:href="#s" transform="translate(400,700)" />
-      <use id="s-84" xlink:href="#s" transform="translate(300,700)" />
-      <use id="s-83" xlink:href="#s" transform="translate(200,700)" />
-      <use id="s-73" xlink:href="#s" transform="translate(200,600)" />
-      <use id="s-63" xlink:href="#s" transform="translate(200,500)" />
-      <use id="s-53" xlink:href="#s" transform="translate(200,400)" />
-      <use id="s-52" xlink:href="#s" transform="translate(100,400)" />
+      <use id="s-56" xlink:href="#s" transform="translate(500,400)" />
+      <use id="s-46" xlink:href="#s" transform="translate(500,300)" />
+      <use id="s-47" xlink:href="#s" transform="translate(600,300)" />
+      <use id="s-37" xlink:href="#s" transform="translate(600,200)" />
+      <use id="s-27" xlink:href="#s" transform="translate(600,100)" />
+      <use id="s-26" xlink:href="#s" transform="translate(500,100)" />
+      <use id="s-16" xlink:href="#s" transform="translate(500,0)" />
+      <use id="s-15" xlink:href="#s" transform="translate(400,0)" />
+      <use id="s-14" xlink:href="#s" transform="translate(300,0)" />
+      <use id="s-13" xlink:href="#s" transform="translate(200,0)" />
+      <use id="s-23" xlink:href="#s" transform="translate(200,100)" />
+      <use id="s-33" xlink:href="#s" transform="translate(200,200)" />
+      <use id="s-32" xlink:href="#s" transform="translate(100,200)" />
+      <use id="s-31" xlink:href="#s" transform="translate(0,200)" />
+      <use id="s-41" xlink:href="#s" transform="translate(0,300)" />
       <use id="s-51" xlink:href="#s" transform="translate(0,400)" />
       <use id="s-61" xlink:href="#s" transform="translate(0,500)" />
       <use id="s-71" xlink:href="#s" transform="translate(0,600)" />
-      <use id="s-81" xlink:href="#s" transform="translate(0,700)" />
+      <use id="s-72" xlink:href="#s" transform="translate(100,600)" />
+      <use id="s-82" xlink:href="#s" transform="translate(100,700)" />
+      <use id="s-83" xlink:href="#s" transform="translate(200,700)" />
     </g>
     <circle id="k-47" class="shape" cx="650" cy="350" r="45" />
     <rect id="kv-47" class="shape vis" x="525" y="225" width="250" height="250" />
     <rect id="q-73" class="shape" x="210" y="610" width="80" height="80" />
-    <rect id="qv-73" class="shape vis" x="25" y="25" width="850" height="850" />
-    <line id="r-73" class="shape vis" x1="25" x2="875" y1="650" y2="650" />
-    <line id="c-73" class="shape vis" x1="250" x2="250" y1="25" y2="875" />
+    <rect id="qv" class="shape vis" x="25" y="25" width="850" height="850" />
+    <line id="rv-7" class="shape vis" x1="25" x2="875" y1="650" y2="650" />
+    <line id="cv-3" class="shape vis" x1="250" x2="250" y1="25" y2="875" />
   </g>
   <g id="grid" inkscape:groupmode="layer" mask="url(#gm)">
     <text id="title" x="0" y="-50">Riverbank ruleset example</text>
@@ -119,42 +125,41 @@
     </g>
   </g>
   <g id="clues" inkscape:groupmode="layer">
-    <text id="d-47" x="650" y="350" class="digit">5</text>
-    <text id="d-73" x="250" y="650" class="digit">7</text>
+    <text id="d-47" x="650" y="350" class="digit">8</text>
+    <text id="d-73" x="250" y="650" class="digit">6</text>
     <g id="bm" class="fill">
-      <use id="vk-c53" xlink:href="#vk" transform="translate(550,300)" />
-      <use id="vk-c73" xlink:href="#vk" transform="translate(650,300)" />
+      <use id="vk-c63" xlink:href="#vk" transform="translate(550,300)" />
+      <use id="vk-r36" xlink:href="#vk" transform="translate(600,250)" />
+      <use id="vk-r37" xlink:href="#vk" transform="translate(700,250)" />
       <use id="vk-r47" xlink:href="#vk" transform="translate(700,350)" />
       <use id="vk-c74" xlink:href="#vk" transform="translate(650,400)" />
       <use id="vk-r56" xlink:href="#vk" transform="translate(600,450)" />
-      <use id="xk-r35" xlink:href="#xk" transform="translate(500,250)" />
-      <use id="xk-c72" xlink:href="#xk" transform="translate(650,200)" />
-      <use id="xk-c82" xlink:href="#xk" transform="translate(750,200)" />
-      <use id="xk-r38" xlink:href="#xk" transform="translate(800,250)" />
-      <use id="xk-r48" xlink:href="#xk" transform="translate(800,350)" />
-      <use id="xk-r58" xlink:href="#xk" transform="translate(800,450)" />
-      <use id="xk-c85" xlink:href="#xk" transform="translate(750,500)" />
-      <use id="vq-r71" xlink:href="#vq" transform="translate(100,650)" />
+      <use id="vk-r57" xlink:href="#vk" transform="translate(700,450)" />
+      <use id="vk-c84" xlink:href="#vk" transform="translate(750,400)" />
+      <use id="xk-c62" xlink:href="#xk" transform="translate(550,200)" />
+      <use id="xk-r45" xlink:href="#xk" transform="translate(500,350)" />
+      <use id="xk-r55" xlink:href="#xk" transform="translate(500,450)" />
       <use id="vq-r72" xlink:href="#vq" transform="translate(200,650)" />
-      <use id="vq-r73" xlink:href="#vq" transform="translate(300,650)" />
-      <use id="vq-r74" xlink:href="#vq" transform="translate(400,650)" />
       <use id="vq-r75" xlink:href="#vq" transform="translate(500,650)" />
-      <use id="vq-c34" xlink:href="#vq" transform="translate(250,400)" />
+      <use id="vq-r78" xlink:href="#vq" transform="translate(800,650)" />
+      <use id="vq-c33" xlink:href="#vq" transform="translate(250,300)" />
+      <use id="vq-c37" xlink:href="#vq" transform="translate(250,700)" />
       <use id="vq-c38" xlink:href="#vq" transform="translate(250,800)" />
       <use id="xq-r70" xlink:href="#xq" transform="translate(0,650)" />
+      <use id="xq-c30" xlink:href="#xq" transform="translate(250,0)" />
     </g>
     <text id="notes" x="0" y="950">
       <tspan x=".25em">• </tspan>
-      <tspan x="1em">The circled 5 is a <tspan class="bold">sweeper</tspan>, which counts 5 riverbank segments </tspan>
+      <tspan x="1em">The circled 8 is a <tspan class="bold">sweeper</tspan>, which counts 8 riverbank segments </tspan>
       <tspan x="1em" dy="1.5em">marked with small circled checks, while ignoring segments </tspan>
-      <tspan x="1em" dy="1.5em">marked with circled crosses because those are not “between” </tspan>
+      <tspan x="1em" dy="1.5em">marked with circled crosses because those are not “within” </tspan>
       <tspan x="1em" dy="1.5em">its surrounding 3×3 cells.</tspan>
       <tspan x=".25em" dy="1.5em">• </tspan>
-      <tspan x="1em">The squared 7 is a <tspan class="bold">sentinel</tspan>, which counts 7 riverbank segments </tspan>
+      <tspan x="1em">The squared 6 is a <tspan class="bold">sentinel</tspan>, which counts 6 riverbank segments </tspan>
       <tspan x="1em" dy="1.5em">marked with small squared checks, while ignoring segments </tspan>
       <tspan x="1em" dy="1.5em">marked with squared crosses because those are on grid edge.</tspan>
       <tspan x=".25em" dy="1.5em">• </tspan>
-      <tspan x="1em">Each sweeper and each sentinel may be either on or off river.</tspan>
+      <tspan x="1em">Each sweeper and sentinel may be either on or off river.</tspan>
     </text>
   </g>
   <script>
