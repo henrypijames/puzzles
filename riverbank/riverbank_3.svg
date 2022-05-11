@@ -82,7 +82,7 @@
       <tspan x="1em"><tspan class="bold">Normal sudoku</tspan>: Fill every row, column and marked 3×3 box with the </tspan>
       <tspan x="1em" dy="1.5em">digits 1 to 9 once each.</tspan>
       <tspan x=".25em" dy="1.5em">• </tspan>
-      <tspan x="1em"><tspan class="bold">River &amp; Riverbank</tspan>: Locate a river (think: classic <tspan class="italic">snake</tspan>) in the grid, </tspan>
+      <tspan x="1em"><tspan class="bold">River &amp; riverbank</tspan>: Locate a river (think: classic <tspan class="italic">snake</tspan>) in the grid, </tspan>
       <tspan x="1em" dy="1.5em">consisting of a one-cell wide, non-looping, non-branching string of </tspan>
       <tspan x="1em" dy="1.5em">orthogonally connected cells, which may not touch itself orthogonally </tspan>
       <tspan x="1em" dy="1.5em">(but may diagonally); each border between a river cell and a non-river </tspan>
