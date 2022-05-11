@@ -4,7 +4,7 @@ _published on Friday, 6 May 2022_
 
 ## Rules
 - **Normal sudoku**: Fill every row, column and marked 3×3 box with the digits 1 to 9 once each.
-- **River & Riverbank**: Locate a river (think: classic _snake_) in the grid, consisting of a one-cell wide, non-looping, non-branching string of orthogonally connected cells, which may not touch itself orthogonally (but may diagonally); each border between a river cell and a non-river cell is a riverbank segment (this precludes the grid edge from being counted as riverbank).
+- **River & riverbank**: Locate a river (think: classic _snake_) in the grid, consisting of a one-cell wide, non-looping, non-branching string of orthogonally connected cells, which may not touch itself orthogonally (but may diagonally); each border between a river cell and a non-river cell is a riverbank segment (this precludes the grid edge from being counted as riverbank).
 - **Riverbank sweeper**: Each circled cell is a riverbank sweeper, which counts riverbank segments within the (up to 3×3) surrounding cells (see example image - but ignore the squared sentinel which is irrelevant for this puzzle).
 - **German whispers**: Neighboring cells along the river differ by 5 or more.
 - **No negative constraint**: Not all circles are necessarily given.
