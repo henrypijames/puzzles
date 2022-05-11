@@ -5,7 +5,7 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="4.75in" height="8.375in" viewBox="-25 -225 950 1675">
+   width="4.75in" height="8.125in" viewBox="-25 -225 950 1625">
   <sodipodi:namedview id="namedview-0"
      units="pc" inkscape:document-units="pc" inkscape:pagecheckerboard="1">
   </sodipodi:namedview>
@@ -82,20 +82,18 @@
       <tspan x="1em"><tspan class="bold">Normal sudoku</tspan>: Fill every row, column and marked 3×3 box with the </tspan>
       <tspan x="1em" dy="1.5em">digits 1 to 9 once each.</tspan>
       <tspan x=".25em" dy="1.5em">• </tspan>
-      <tspan x="1em"><tspan class="bold">River</tspan> (think: classic <tspan class="italic">snake</tspan>): Locate a river in the grid, consisting of a </tspan>
-      <tspan x="1em" dy="1.5em">one-cell wide, non-looping, non-branching string of orthogonally </tspan>
-      <tspan x="1em" dy="1.5em">connected cells, which may not touch itself orthogonally (but may </tspan>
-      <tspan x="1em" dy="1.5em">diagonally).</tspan>
-      <tspan x=".25em" dy="1.5em">• </tspan>
-      <tspan x="1em"><tspan class="bold">German whispers</tspan>: Neighboring cells along the river differ by 5 or more.</tspan>
-      <tspan x=".25em" dy="1.5em">• </tspan>
-      <tspan x="1em"><tspan class="bold">Riverbank</tspan>: Each border between a river cell and a non-river cell is a </tspan>
-      <tspan x="1em" dy="1.5em">riverbank segment (this precludes the grid edge from being counted as </tspan>
-      <tspan x="1em" dy="1.5em">riverbank).</tspan>
+      <tspan x="1em"><tspan class="bold">River &amp; Riverbank</tspan>: Locate a river (think: classic <tspan class="italic">snake</tspan>) in the grid, </tspan>
+      <tspan x="1em" dy="1.5em">consisting of a one-cell wide, non-looping, non-branching string of </tspan>
+      <tspan x="1em" dy="1.5em">orthogonally connected cells, which may not touch itself orthogonally </tspan>
+      <tspan x="1em" dy="1.5em">(but may diagonally); each border between a river cell and a non-river </tspan>
+      <tspan x="1em" dy="1.5em">cell is a riverbank segment (this precludes the grid edge from being </tspan>
+      <tspan x="1em" dy="1.5em">counted as riverbank).</tspan>
       <tspan x=".25em" dy="1.5em">• </tspan>
       <tspan x="1em"><tspan class="bold">Riverbank sweeper</tspan>: Each circled cell is a riverbank sweeper, which </tspan>
       <tspan x="1em" dy="1.5em">counts riverbank segments within the (up to 3×3) surrounding cells </tspan>
       <tspan x="1em" dy="1.5em">(see example image).</tspan>
+      <tspan x=".25em" dy="1.5em">• </tspan>
+      <tspan x="1em"><tspan class="bold">German whispers</tspan>: Neighboring cells along the river differ by 5 or more.</tspan>
       <tspan x=".25em" dy="1.5em">• </tspan>
       <tspan x="1em"><tspan class="bold">No negative constraint</tspan>: Not all circles are necessarily given.</tspan>
     </text>
