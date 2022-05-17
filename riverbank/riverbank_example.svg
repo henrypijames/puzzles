@@ -64,10 +64,13 @@
   </mask>
   <g id="shading" inkscape:groupmode="layer" mask="url(#gm)">
     <g id="river">
-      <use id="s-59" xlink:href="#s" transform="translate(800,400)" />
       <use id="s-58" xlink:href="#s" transform="translate(700,400)" />
-      <use id="s-68" xlink:href="#s" transform="translate(700,500)" />
-      <use id="s-78" xlink:href="#s" transform="translate(700,600)" />
+      <use id="s-59" xlink:href="#s" transform="translate(800,400)" />
+      <use id="s-69" xlink:href="#s" transform="translate(800,500)" />
+      <use id="s-79" xlink:href="#s" transform="translate(800,600)" />
+      <use id="s-89" xlink:href="#s" transform="translate(800,700)" />
+      <use id="s-88" xlink:href="#s" transform="translate(700,700)" />
+      <use id="s-87" xlink:href="#s" transform="translate(600,700)" />
       <use id="s-77" xlink:href="#s" transform="translate(600,600)" />
       <use id="s-76" xlink:href="#s" transform="translate(500,600)" />
       <use id="s-66" xlink:href="#s" transform="translate(500,500)" />
@@ -77,21 +80,24 @@
       <use id="s-37" xlink:href="#s" transform="translate(600,200)" />
       <use id="s-27" xlink:href="#s" transform="translate(600,100)" />
       <use id="s-26" xlink:href="#s" transform="translate(500,100)" />
-      <use id="s-16" xlink:href="#s" transform="translate(500,0)" />
+      <use id="s-25" xlink:href="#s" transform="translate(400,100)" />
       <use id="s-15" xlink:href="#s" transform="translate(400,0)" />
       <use id="s-14" xlink:href="#s" transform="translate(300,0)" />
       <use id="s-13" xlink:href="#s" transform="translate(200,0)" />
-      <use id="s-23" xlink:href="#s" transform="translate(200,100)" />
-      <use id="s-33" xlink:href="#s" transform="translate(200,200)" />
-      <use id="s-32" xlink:href="#s" transform="translate(100,200)" />
+      <use id="s-12" xlink:href="#s" transform="translate(100,0)" />
+      <use id="s-11" xlink:href="#s" transform="translate(0,0)" />
+      <use id="s-21" xlink:href="#s" transform="translate(0,100)" />
       <use id="s-31" xlink:href="#s" transform="translate(0,200)" />
-      <use id="s-41" xlink:href="#s" transform="translate(0,300)" />
+      <use id="s-32" xlink:href="#s" transform="translate(100,200)" />
+      <use id="s-33" xlink:href="#s" transform="translate(200,200)" />
+      <use id="s-43" xlink:href="#s" transform="translate(200,300)" />
+      <use id="s-53" xlink:href="#s" transform="translate(200,400)" />
+      <use id="s-52" xlink:href="#s" transform="translate(100,400)" />
       <use id="s-51" xlink:href="#s" transform="translate(0,400)" />
       <use id="s-61" xlink:href="#s" transform="translate(0,500)" />
       <use id="s-71" xlink:href="#s" transform="translate(0,600)" />
       <use id="s-72" xlink:href="#s" transform="translate(100,600)" />
       <use id="s-82" xlink:href="#s" transform="translate(100,700)" />
-      <use id="s-83" xlink:href="#s" transform="translate(200,700)" />
     </g>
     <circle id="k-47" class="shape" cx="650" cy="350" r="45" />
     <rect id="kv-47" class="shape vis" x="525" y="225" width="250" height="250" />
@@ -126,7 +132,7 @@
   </g>
   <g id="clues" inkscape:groupmode="layer">
     <text id="d-47" x="650" y="350" class="digit">8</text>
-    <text id="d-73" x="250" y="650" class="digit">6</text>
+    <text id="d-73" x="250" y="650" class="digit">7</text>
     <g id="bm" class="fill">
       <use id="vk-c63" xlink:href="#vk" transform="translate(550,300)" />
       <use id="vk-r36" xlink:href="#vk" transform="translate(600,250)" />
@@ -139,13 +145,16 @@
       <use id="xk-c62" xlink:href="#xk" transform="translate(550,200)" />
       <use id="xk-r45" xlink:href="#xk" transform="translate(500,350)" />
       <use id="xk-r55" xlink:href="#xk" transform="translate(500,450)" />
+      <use id="xk-c85" xlink:href="#xk" transform="translate(750,500)" />
       <use id="vq-r72" xlink:href="#vq" transform="translate(200,650)" />
       <use id="vq-r75" xlink:href="#vq" transform="translate(500,650)" />
+      <use id="vq-r77" xlink:href="#vq" transform="translate(700,650)" />
       <use id="vq-r78" xlink:href="#vq" transform="translate(800,650)" />
-      <use id="vq-c33" xlink:href="#vq" transform="translate(250,300)" />
-      <use id="vq-c37" xlink:href="#vq" transform="translate(250,700)" />
-      <use id="vq-c38" xlink:href="#vq" transform="translate(250,800)" />
+      <use id="vq-c31" xlink:href="#vq" transform="translate(250,100)" />
+      <use id="vq-c32" xlink:href="#vq" transform="translate(250,200)" />
+      <use id="vq-c35" xlink:href="#vq" transform="translate(250,500)" />
       <use id="xq-r70" xlink:href="#xq" transform="translate(0,650)" />
+      <use id="xq-r79" xlink:href="#xq" transform="translate(900,650)" />
       <use id="xq-c30" xlink:href="#xq" transform="translate(250,0)" />
     </g>
     <text id="notes" x="0" y="950">
@@ -155,7 +164,7 @@
       <tspan x="1em" dy="1.5em">marked with circled crosses because those are not “within” </tspan>
       <tspan x="1em" dy="1.5em">its surrounding 3×3 cells.</tspan>
       <tspan x=".25em" dy="1.5em">• </tspan>
-      <tspan x="1em">The squared 6 is a <tspan class="bold">sentinel</tspan>, which counts 6 riverbank segments </tspan>
+      <tspan x="1em">The squared 7 is a <tspan class="bold">sentinel</tspan>, which counts 7 riverbank segments </tspan>
       <tspan x="1em" dy="1.5em">marked with small squared checks, while ignoring segments </tspan>
       <tspan x="1em" dy="1.5em">marked with squared crosses because those are on grid edge.</tspan>
       <tspan x=".25em" dy="1.5em">• </tspan>
