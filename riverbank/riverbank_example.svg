@@ -168,7 +168,7 @@
       <tspan x="1em" dy="1.5em">marked with small squared checks, while ignoring segments </tspan>
       <tspan x="1em" dy="1.5em">marked with squared crosses because those are on grid edge.</tspan>
       <tspan x=".25em" dy="1.5em">• </tspan>
-      <tspan x="1em">Each sweeper and sentinel may be either on or off river.</tspan>
+      <tspan x="1em">Each sweeper and sentinel may be either on river or on land.</tspan>
     </text>
   </g>
   <script>
