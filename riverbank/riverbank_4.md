@@ -1,4 +1,4 @@
-﻿# Riverbank - Episode 3: Watch on the Rhine
+﻿# Riverbank - Episode 4: Nessie
 _by Nordy & Henry 'Pi' James_  
 _published on Friday, 20 May 2022_
 
@@ -18,7 +18,7 @@ _Note: SVG auto-switches colors depending on light/dark mode in system/browser s
 - **Check your solution** and **discuss** this puzzle with others at [LMD puzzle portal](https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=0009YK).
 
 ## Acknowledgment
-_@Nordy_ and I have spent close to a hundred hours combined working on this puzzle - and had so much fun doing it! The break-in, mid- and endgame each went through several rounds of significant change, while the ruleset continues to amaze us with its logical width and depth.
+The (real) debut of riverbank sentinel! _@Nordy_ and I have spent close to a hundred hours combined working on this puzzle - and had so much fun doing it! The break-in, mid- and endgame each went through several rounds of significant change, while the ruleset continues to amaze us with its logical width and depth.
 
 ## License
 This puzzle is published under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
