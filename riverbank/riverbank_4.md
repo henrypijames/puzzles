@@ -16,6 +16,7 @@ _published on Friday, 20 May 2022_
 _Note: SVG auto-switches colors depending on light/dark mode in system/browser setting; PDF is in printing-friendly black on white._
 - **Play online** on: [Penpa+](riverbank_4_penpa.html) \| [CtC App](riverbank_4_ctc.html).
 - **Check your solution** and **discuss** this puzzle with others at [LMD puzzle portal](https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=0009YK).
+- Read the **walkthrough** of this puzzle, scheduled to be published by the weekend of 28-29 May.
 
 ## Acknowledgment
 The (real) debut of riverbank sentinel! _@Nordy_ and I have spent close to a hundred hours combined working on this puzzle - and had so much fun doing it! The break-in, mid- and endgame each went through several rounds of significant change, while the ruleset continues to amaze us with its logical width and depth.
