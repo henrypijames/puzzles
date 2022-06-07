@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="Riverbank_4_Walkthrough_23"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2.375in" height="2.375in" viewBox="-25 -25 950 950">
+  <sodipodi:namedview id="namedview-0"
+     units="pc" inkscape:document-units="pc" inkscape:pagecheckerboard="1">
+  </sodipodi:namedview>
+  <style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@0;1&amp;display=swap');
+    .fill {fill: black; stroke: none}
+    .stroke {fill: none; stroke: black}
+    .shape {fill: none; stroke: black; stroke-width: 2}
+    .digit, .candidate {fill: seagreen; text-anchor: middle; dominant-baseline: central; font-family: 'Merriweather Sans'}
+    .digit {font-size: 60pt}
+    .candidate {font-size: 30pt}
+    #riverend {fill: plum}
+    #riverbody {fill: powderblue}
+    #land {fill: bisque}
+    #banks {stroke: red}
+    @media_ (prefers-color-scheme: dark) {
+      svg {background-color: black}
+      .shape {stroke: white}
+      .fill {fill: white}
+      .stroke {stroke: white}
+      text {fill: white}
+    }
+  </style>
+  <defs id="objects">
+    <rect id="s" width="100" height="100" />
+    <line id="r" x2="900" />
+    <line id="c" y2="900" />
+    <circle id="k" r="45" />
+    <rect id="q" x="-40" y="-40" width="80" height="80" />
+    <line id="bh" x2="100" />
+    <line id="bv" y2="100" />
+  </defs>
+  <g id="shading" inkscape:groupmode="layer">
+    <g id="riverend">
+      <use id="s-15" href="#s" transform="translate(400,0)" />
+      <use id="s-31" href="#s" transform="translate(0,200)" />
+    </g>
+    <g id="riverbody">
+      <use id="s-16" href="#s" transform="translate(500,0)" />
+      <use id="s-23" href="#s" transform="translate(200,100)" />
+      <use id="s-24" href="#s" transform="translate(300,100)" />
+      <use id="s-34" href="#s" transform="translate(300,200)" />
+      <use id="s-21" href="#s" transform="translate(0,100)" />
+      <use id="s-11" href="#s" transform="translate(0,0)" />
+      <use id="s-12" href="#s" transform="translate(100,0)" />
+      <use id="s-13" href="#s" transform="translate(200,0)" />
+      <use id="s-44" href="#s" transform="translate(300,300)" />
+      <use id="s-43" href="#s" transform="translate(200,300)" />
+      <use id="s-42" href="#s" transform="translate(100,300)" />
+      <use id="s-52" href="#s" transform="translate(100,400)" />
+      <use id="s-38" href="#s" transform="translate(700,200)" />
+      <use id="s-39" href="#s" transform="translate(800,200)" />
+      <use id="s-49" href="#s" transform="translate(800,300)" />
+      <use id="s-59" href="#s" transform="translate(800,400)" />
+      <use id="s-92" href="#s" transform="translate(100,800)" />
+      <use id="s-93" href="#s" transform="translate(200,800)" />
+      <use id="s-94" href="#s" transform="translate(300,800)" />
+      <use id="s-71" href="#s" transform="translate(0,600)" />
+      <use id="s-81" href="#s" transform="translate(0,700)" />
+      <use id="s-91" href="#s" transform="translate(0,800)" />
+      <use id="s-84" href="#s" transform="translate(300,700)" />
+      <use id="s-98" href="#s" transform="translate(700,800)" />
+      <use id="s-57" href="#s" transform="translate(600,400)" />
+      <use id="s-56" href="#s" transform="translate(500,400)" />
+      <use id="s-55" href="#s" transform="translate(400,400)" />
+      <use id="s-65" href="#s" transform="translate(400,500)" />
+      <use id="s-67" href="#s" transform="translate(600,500)" />
+      <use id="s-77" href="#s" transform="translate(600,600)" />
+      <use id="s-69" href="#s" transform="translate(800,500)" />
+      <use id="s-79" href="#s" transform="translate(800,600)" />
+      <use id="s-89" href="#s" transform="translate(800,700)" />
+      <use id="s-28" href="#s" transform="translate(700,100)" />
+      <use id="s-27" href="#s" transform="translate(600,100)" />
+      <use id="s-62" href="#s" transform="translate(100,500)" />
+      <use id="s-72" href="#s" transform="translate(100,600)" />
+      <use id="s-97" href="#s" transform="translate(600,800)" />
+      <use id="s-96" href="#s" transform="translate(500,800)" />
+      <use id="s-86" href="#s" transform="translate(500,700)" />
+      <use id="s-76" href="#s" transform="translate(500,600)" />
+      <use id="s-64" href="#s" transform="translate(300,500)" />
+      <use id="s-74" href="#s" transform="translate(300,600)" />
+      <use id="s-99" href="#s" transform="translate(800,800)" />
+    </g>
+    <g id="land">
+      <use id="s-14" href="#s" transform="translate(300,0)" />
+      <use id="s-25" href="#s" transform="translate(400,100)" />
+      <use id="s-33" href="#s" transform="translate(200,200)" />
+      <use id="s-32" href="#s" transform="translate(100,200)" />
+      <use id="s-41" href="#s" transform="translate(0,300)" />
+      <use id="s-22" href="#s" transform="translate(100,100)" />
+      <use id="s-35" href="#s" transform="translate(400,200)" />
+      <use id="s-45" href="#s" transform="translate(400,300)" />
+      <use id="s-53" href="#s" transform="translate(200,400)" />
+      <use id="s-54" href="#s" transform="translate(300,400)" />
+      <use id="s-83" href="#s" transform="translate(200,700)" />
+      <use id="s-29" href="#s" transform="translate(800,100)" />
+      <use id="s-19" href="#s" transform="translate(800,0)" />
+      <use id="s-82" href="#s" transform="translate(100,700)" />
+      <use id="s-48" href="#s" transform="translate(700,300)" />
+      <use id="s-46" href="#s" transform="translate(500,300)" />
+      <use id="s-47" href="#s" transform="translate(600,300)" />
+      <use id="s-63" href="#s" transform="translate(200,500)" />
+      <use id="s-73" href="#s" transform="translate(200,600)" />
+      <use id="s-18" href="#s" transform="translate(700,0)" />
+      <use id="s-95" href="#s" transform="translate(400,800)" />
+      <use id="s-66" href="#s" transform="translate(500,500)" />
+      <use id="s-58" href="#s" transform="translate(700,400)" />
+      <use id="s-68" href="#s" transform="translate(700,500)" />
+      <use id="s-78" href="#s" transform="translate(700,600)" />
+      <use id="s-37" href="#s" transform="translate(600,200)" />
+      <use id="s-36" href="#s" transform="translate(500,200)" />
+      <use id="s-61" href="#s" transform="translate(0,500)" />
+      <use id="s-51" href="#s" transform="translate(0,400)" />
+      <use id="s-75" href="#s" transform="translate(400,600)" />
+      <use id="s-85" href="#s" transform="translate(400,700)" />
+      <use id="s-87" href="#s" transform="translate(600,700)" />
+      <use id="s-88" href="#s" transform="translate(700,700)" />
+    </g>
+    <g id="shapes" class="shape">
+      <use id="k-11" href="#k" transform="translate(50,50)" />
+      <use id="k-12" href="#k" transform="translate(150,50)" />
+      <use id="k-13" href="#k" transform="translate(250,50)" />
+      <use id="k-14" href="#k" transform="translate(350,50)" />
+      <use id="q-16" href="#q" transform="translate(550,50)" />
+      <use id="q-21" href="#q" transform="translate(50,150)" />
+      <use id="q-22" href="#q" transform="translate(150,150)" />
+      <use id="k-23" href="#k" transform="translate(250,150)" />
+      <use id="q-25" href="#q" transform="translate(450,150)" />
+      <use id="k-31" href="#k" transform="translate(50,250)" />
+      <use id="q-33" href="#q" transform="translate(250,250)" />
+      <use id="k-36" href="#k" transform="translate(550,250)" />
+      <use id="k-37" href="#k" transform="translate(650,250)" />
+      <use id="q-38" href="#q" transform="translate(750,250)" />
+      <use id="k-44" href="#k" transform="translate(350,350)" />
+      <use id="k-47" href="#k" transform="translate(650,350)" />
+      <use id="q-48" href="#q" transform="translate(750,350)" />
+      <use id="k-54" href="#k" transform="translate(350,450)" />
+      <use id="q-56" href="#q" transform="translate(550,450)" />
+      <use id="k-59" href="#k" transform="translate(850,450)" />
+      <use id="k-61" href="#k" transform="translate(50,550)" />
+      <use id="k-62" href="#k" transform="translate(150,550)" />
+      <use id="q-69" href="#q" transform="translate(850,550)" />
+      <use id="k-76" href="#k" transform="translate(550,650)" />
+      <use id="q-79" href="#q" transform="translate(850,650)" />
+      <use id="q-88" href="#q" transform="translate(750,750)" />
+      <use id="k-93" href="#k" transform="translate(250,850)" />
+      <use id="q-95" href="#q" transform="translate(450,850)" />
+      <use id="k-96" href="#k" transform="translate(550,850)" />
+    </g>
+  </g>
+  <g id="grid" inkscape:groupmode="layer">
+    <g id="thick" class="stroke" style="stroke-width:3">
+      <rect id="edge" width="900" height="900" />
+      <use id="r-3" href="#r" transform="translate(0,300)" />
+      <use id="r-6" href="#r" transform="translate(0,600)" />
+      <use id="c-3" href="#c" transform="translate(600,0)" />
+      <use id="c-6" href="#c" transform="translate(300,0)" />
+    </g>
+    <g id="thin" class="stroke" style="stroke-width:1">
+      <use id="r-1" href="#r" transform="translate(0,100)" />
+      <use id="r-2" href="#r" transform="translate(0,200)" />
+      <use id="r-4" href="#r" transform="translate(0,400)" />
+      <use id="r-5" href="#r" transform="translate(0,500)" />
+      <use id="r-7" href="#r" transform="translate(0,700)" />
+      <use id="r-8" href="#r" transform="translate(0,800)" />
+      <use id="c-1" href="#c" transform="translate(100,0)" />
+      <use id="c-2" href="#c" transform="translate(200,0)" />
+      <use id="c-4" href="#c" transform="translate(400,0)" />
+      <use id="c-5" href="#c" transform="translate(500,0)" />
+      <use id="c-7" href="#c" transform="translate(700,0)" />
+      <use id="c-8" href="#c" transform="translate(800,0)" />
+    </g>
+  </g>
+  <g id="clues" inkscape:groupmode="layer">
+    <g id="digits">
+      <text id="d-11" x="50" y="50" class="digit">2</text>
+      <text id="d-14" x="350" y="50" class="digit">5</text>
+      <text id="d-31" x="50" y="250" class="digit">5</text>
+      <text id="d-12" x="150" y="50" class="digit">3</text>
+      <text id="d-13" x="250" y="50" class="digit">4</text>
+      <text id="d-23" x="250" y="150" class="digit">6</text>
+      <text id="d-32" x="150" y="250" class="digit">1</text>
+      <text id="d-22" x="150" y="150" class="digit">9</text>
+      <text id="d-33" x="250" y="250" class="digit">8</text>
+      <text id="d-21" x="50" y="150" class="digit">7</text>
+      <text id="d-93" x="250" y="850" class="digit">3</text>
+      <text id="d-25" x="450" y="150" class="digit">8</text>
+      <text id="d-38" x="750" y="250" class="digit">7</text>
+      <text id="d-48" x="750" y="350" class="digit">6</text>
+      <text id="d-44" x="350" y="350" class="digit">8</text>
+      <text id="d-47" x="650" y="350" class="digit">5</text>
+      <text id="d-37" x="650" y="250" class="digit">4</text>
+      <text id="d-61" x="50" y="550" class="digit">3</text>
+      <text id="d-62" x="150" y="550" class="digit">6</text>
+      <text id="d-56" x="550" y="450" class="digit">9</text>
+      <text id="d-16" x="550" y="50" class="digit">7</text>
+      <text id="d-54" x="350" y="450" class="digit">7</text>
+      <text id="d-59" x="850" y="450" class="digit">3</text>
+      <text id="d-76" x="550" y="650" class="digit">8</text>
+      <text id="d-96" x="550" y="850" class="digit">4</text>
+      <text id="d-88" x="750" y="750" class="digit">9</text>
+      <text id="d-69" x="850" y="550" class="digit">8</text>
+      <text id="d-79" x="850" y="650" class="digit">7</text>
+      <text id="d-95" x="450" y="850" class="digit">5</text>
+    </g>
+    <g id="pencilmark">
+      <text id="p-36" x="550" y="250" class="candidate">23</text>
+    </g>
+    <g id="banks" style="stroke-width:5">
+    </g>
+  </g>
+</svg>
