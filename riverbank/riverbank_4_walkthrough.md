@@ -5,7 +5,7 @@ This walkthrough describes the solution path to [Riverbank - Episode 4: Nessie](
 
 ## 0. Terminology
 
-- 0.1. Geology & checkerboard: The "geology" of any cell is its property of being either river or land; a groups of orthogonally connected cells has "checkerboard geology" if within that group, neighboring cells have alternating geology (e.g. within a 2×2 block of checkerboarded cells, the riverbank segments forms a cross).
+- 0.1. Geology & checkerboard: The "geology" of any cell is its property of being either river or land; a group of orthogonally connected cells has "checkerboard geology" if within that group, neighboring cells have alternating geology (e.g. within a 2×2 block of checkerboarded cells, the riverbank segments forms a cross).
 - 0.2. Visibility: A cell border is "visible to" (or "seen by" or "in sight of") a sweeper/sentinel if the former, in case of being riverbank, is counted by the latter; and a cell is visible to a sweeper/sentinel if at least one of the former's borders is visible to the latter.
 - 0.3. Cliff: A cell border that is part of the grid edge is a "cliff" - either a river cliff (which never counts as riverbank) or a land cliff depending on the geology of the cell it belongs to.
 - 0.4. Central domino: A sweeper at the grid edge has a "central domino" consisting of itself and the one neighboring ("front") cell away from the edge.
@@ -28,7 +28,7 @@ This walkthrough describes the solution path to [Riverbank - Episode 4: Nessie](
 
 - 1.3. R1C4 is land - as a river starting there and going left would either be penned in by the 2×2 checkerboard around R3C1 or make R2C3 impossible - and the geology of entire B1 is fixed:
   - 1.3.1. Given the R12C45 checkerboard, if R1C4 were river, it must be a river end, coming out via R1C3 onto either R1C2 or R2C3.
-  - 1.3.2. If the river goes R1C4, R1C3, R1C2 (making R2C3 land), the 2×2 checkerboarde around R3C1 cannot be R23C12, as that would pen the river in, so it must be R34C12, allowing the river to come out via R2C2, R3C2, R3C3, making R2C3=5 by sweeper count (regardless of R3C4's geology) - thus clashing with R3C1.
+  - 1.3.2. If the river goes R1C4, R1C3, R1C2 (making R2C3 land), the 2×2 checkerboarded around R3C1 cannot be R23C12, as that would pen the river in, so it must be R34C12, allowing the river to come out via R2C2, R3C2, R3C3, making R2C3=5 by sweeper count (regardless of R3C4's geology) - thus clashing with R3C1.
   - 1.3.3. If the river goes R1C4, R1C3, R2C3 (making R1C2 land), it must continue onto R2C2 (or else R1C2=2 and R1C1=0 by sweeper count) and is now definitely penned in by R3C1's 2×2 checkerboard - no matter its location and geology.
   - 1.3.4. R1C4 being land means R2C5 is too, whereas R1C5 is a river end coming out to R1C6, and R2C4 a river corner that makes both R2C3 and R3C4 river, and R3C3 land.
   - 1.3.5. The only way R3C1's 2×2 checkerboard can avoid creating a third river end now is for it to be R34R12, with R3C2 and R4C1 being land; R3C1 is a river end that comes out via R2C1, missing R2C2 (or else R1C3=R1C4=3 by sweeper count), onto R1C1, R1C2, R1C3, making R1C2=3, R1C3=4, and R2C4=6 (all by sweeper count); R4C2 is a river corner that makes R4C3&4 and R5C2 river, and R3&4C5 and R5C3&4 land.
