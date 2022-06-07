@@ -1,16 +1,16 @@
 # Riverbank 4 walkthrough
 _Version: 2022-06-07_
 
-This walkthrough describes the solution path to _Riverbank - Episode 4: Nessie_ in three parts: 1. opening, in which both ends of the river are located; 2. midgame, in which the course of the river is largely determined; 3. endgame, in which the river is finally fixed by the resulting sudoku.
+This walkthrough describes the solution path to [Riverbank - Episode 4: Nessie](./riverbank_4.html) in three parts: 1. opening, in which both ends of the river are located; 2. midgame, in which the course of the river is largely determined; 3. endgame, in which the river is finally fixed by the resulting sudoku.
 
-0. Terminology
+## 0. Terminology
 
 - 0.1. Geology & checkerboard: The "geology" of any cell is its property of being either river or land; a groups of orthogonally connected cells has "checkerboard geology" if within that group, neighboring cells have alternating geology (e.g. within a 2×2 block of checkerboarded cells, the riverbank segments forms a cross).
 - 0.2. Visibility: A cell border is "visible to" (or "seen by" or "in sight of") a sweeper/sentinel if the former, in case of being riverbank, is counted by the latter; and a cell is visible to a sweeper/sentinel if at least one of the former's borders is visible to the latter.
 - 0.3. Cliff: A cell border that is part of the grid edge is a "cliff" - either a river cliff (which never counts as riverbank) or a land cliff depending on the geology of the cell it belongs to.
 - 0.4. Central domino: A sweeper at the grid edge has a "central domino" consisting of itself and the one neighboring ("front") cell away from the edge.
 
-1. Opening
+## 1. Opening
 
 - 1.1. The intended break-in lies in the string of four sweepers at the start of R1 - which are a 2345 quadruple:
   - 1.1.1. The only possible values for a sweeper in a grid corner are 2/4, and for a sweeper at the grid edge (but not corner) 2-5 (proof omitted; 0 excluded from possible values as it's not allowed in this puzzle).
@@ -35,7 +35,7 @@ This walkthrough describes the solution path to _Riverbank - Episode 4: Nessie_ 
 
   ![After ¶1.3](./riverbank_4_walkthrough_13.png)
 
-2. Midgame
+## 2. Midgame
 
 - 2.1. The three sentinels in B1 are resolved - narrowing down the course of the river in the upper-right and the lower-left corners in the process:
   - 2.1.1. The only place for 1 in B1 is R3C2, since the three sentinels are all seeing (cf. ¶0.2) more than 1 riverbank already - they're now a 789 triple.
@@ -67,7 +67,7 @@ This walkthrough describes the solution path to _Riverbank - Episode 4: Nessie_ 
 
   ![After ¶2.3](./riverbank_4_walkthrough_23.png)
 
-3. Endgame
+## 3. Endgame
 
 - 3.1. By sudoku, all 7s in the grid can be located (B6, B8, B7, B4), then several 6s (B5, B2, B8) and 9s (B6, R4, B3, B4), so now R3 only has 2/3 left, with R3C9=2 and R3C6=3, making R2C6 river and R1C7 land - the river is finally complete.
 
