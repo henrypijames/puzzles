@@ -24,7 +24,7 @@ This walkthrough describes the solution path to _Riverbank - Episode 4: Nessie_ 
   - 1.2.2. R1C4=5 - because in a 2345 string of edge sweepers, the (mandatory) 2×2 checkerboard around the 5 cannot overlap with the central domino of either 2/4 (turning it odd, cf. ¶1.1.3) or 3 (turning it into another 5, cf. ¶1.1.5); so that 2×2 checkerboard can only be R12C45 (away from the quad), with either R1C4 or R1C5 being a river end.
   - 1.2.3. By sudoku, R3C1 - which is also an edge sweeper and therefore from 2-5 - is now 5 as well, making R2/3/4C1 the other river end.
 
-  ![After ¶1.2](./riverbank_4_walkthrough_12.svg)
+  ![After ¶1.2](./riverbank_4_walkthrough_12.png)
 
 - 1.3. R1C4 is land - as a river starting there and going left would either be penned in by the 2×2 checkerboard around R3C1 or make R2C3 impossible - and the geology of entire B1 is fixed:
   - 1.3.1. Given the R12C45 checkerboard, if R1C4 were river, it must be a river end, coming out via R1C3 onto either R1C2 or R2C3.
@@ -33,7 +33,7 @@ This walkthrough describes the solution path to _Riverbank - Episode 4: Nessie_ 
   - 1.3.4. R1C4 being land means R2C5 is too, whereas R1C5 is a river end coming out to R1C6, and R2C4 a river corner that makes both R2C3 and R3C4 river, and R3C3 land.
   - 1.3.5. The only way R3C1's 2×2 checkerboard can avoid creating a third river end now is for it to be R34R12, with R3C2 and R4C1 being land; R3C1 is a river end that comes out via R2C1, missing R2C2 (or else R1C3=R1C4=3 by sweeper count), onto R1C1, R1C2, R1C3, making R1C2=3, R1C3=4, and R2C4=6 (all by sweeper count); R4C2 is a river corner that makes R4C3&4 and R5C2 river, and R3&4C5 and R5C3&4 land.
 
-  ![After ¶1.3](./riverbank_4_walkthrough_13.svg)
+  ![After ¶1.3](./riverbank_4_walkthrough_13.png)
 
 2. Midgame
 
@@ -47,7 +47,7 @@ This walkthrough describes the solution path to _Riverbank - Episode 4: Nessie_ 
   - 2.1.7. R9C3=3 by elimination of other edge sweeper values - 2 ruled out by it being river (cf. ¶1.1.4), 4 ruled out by R1C3, 5 ruled out by there being no river end left (cf. ¶1.1.5); that makes R8C3 land (cf. ¶1.1.3), and R9C2 and R9C4 river.
   - 2.1.8. R9C2 being river forces R2C9 to be land - and with it, R1C9 as well - in order to fulfill R2C2 (cf. ¶2.1.2); now R7&8&9C1 are river and R8C2 land to fulfill R2C1; R3C9 has become a river corner, making R3C8 and R4&5C9 river, and R4C8 land.
 
-  ![After ¶2.1](./riverbank_4_walkthrough_21.svg)
+  ![After ¶2.1](./riverbank_4_walkthrough_21.png)
 
 - 2.2. The three sentinels in C8 are resolved - further fixing the river:
   - 2.2.1. The gaps in R4 and C3 are too narrow for the river to get in and out again, so R4C6&7 and R6&7C3 are all land; R1C8 is land because otherwise the river goes R1C6, R1C7, R1C8, R2C8, R3C8 - leaving R3C6 with a sweeper count of 0.
@@ -57,7 +57,7 @@ This walkthrough describes the solution path to _Riverbank - Episode 4: Nessie_ 
   - 2.2.5. R4C4=8 since every interior (i.e. non-corner, non-edge) sweeper on river is either 5/7/9 if it's a river end, or 6/8 otherwise (proof omitted), and this one cannot be 6 because of R4R8; that forces R5C5 to be river - and a river corner, making R5C6&7 and R6C5 river, and R6C6 land.
   - 2.2.6. The gap in C5 is again too narrow for the river to move through it and back again, so in order to ensure that the river gets to R9C8, it cannot directly connect at R5C8 - nor at R6C8 or R7C8, meaning R5&6&7C8 are land, and R6&7C7 and R6&7&8C9 river.
 
-  ![After ¶2.2](./riverbank_4_walkthrough_22.svg)
+  ![After ¶2.2](./riverbank_4_walkthrough_22.png)
 
 - 2.3. Various sweepers and sentinels work together to determine the river's course almost entirely:
   - 2.3.1. R3C7 is land - and with it, R3C6 too - because otherwise R4C7 has a sweeper count of 6, colliding with R4C8; R2C7&8 are now river, R4C7=5, R3C7=4, R3C6 is either 2 or 3 depending on R2C6's geology.
@@ -65,14 +65,14 @@ This walkthrough describes the solution path to _Riverbank - Episode 4: Nessie_ 
   - 2.3.3. R5C6=9 as that's now its minimum sentinel count, which makes R9C6 river - and a river corner; R7&8C6 and R9C7 are therefore river too, R7&8C5 and R8C7 land, R6&7C4 river; R1C6=7, R5C4=7, R5C9=3, R7C6=8, R9C6=4, R8C8=9.
   - 2.3.4. R9C9 is river - or else R7C9 would count 8 and collide with R7C6 - and R8C8 is land; R6C9=8, R7C9=7, R9C5=5.
 
-  ![After ¶2.3](./riverbank_4_walkthrough_23.svg)
+  ![After ¶2.3](./riverbank_4_walkthrough_23.png)
 
 3. Endgame
 
 - 3.1. By sudoku, all 7s in the grid can be located (B6, B8, B7, B4), then several 6s (B5, B2, B8) and 9s (B6, R4, B3, B4), so now R3 only has 2/3 left, with R3C9=2 and R3C6=3, making R2C6 river and R1C7 land - the river is finally complete.
 
-  ![After ¶3.1](./riverbank_4_walkthrough_31.svg)
+  ![After ¶3.1](./riverbank_4_walkthrough_31.png)
 
 - 3.2. The whole grid can be finished by sudoku in the following order: B2, R1, C9, C6, R4, C5, R6, B6, B3, C8, C3, B4, C2, R8, R7, R9.
 
-  ![After ¶3.2](./riverbank_4_walkthrough_32.svg)
+  ![After ¶3.2](./riverbank_4_walkthrough_32.png)
