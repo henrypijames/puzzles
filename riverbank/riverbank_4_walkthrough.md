@@ -1,7 +1,7 @@
 # Riverbank 4 walkthrough
 _Version: 2022-06-07_
 
-This walkthrough describes the solution path to [Riverbank - Episode 4: Nessie](./riverbank_4.html) in three parts: 1. opening, in which both ends of the river are located; 2. midgame, in which the course of the river is largely determined; 3. endgame, in which the river is finally fixed by the resulting sudoku.
+This walkthrough describes the intended solution path to [Riverbank - Episode 4: Nessie](./riverbank_4.html) in three parts: 1. opening, in which both ends of the river are located; 2. midgame, in which the course of the river is largely determined; 3. endgame, in which the river is finally fixed by the resulting sudoku.
 
 ## 0. Terminology
 
